@@ -5,16 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	
-	int flag=1;
-	int y;
+	int i;
+	int temp=1;
 	
-	while (flag !=0)
+	for(i=0;i<5;i++)
 	{
-		//int y;   
-		y=3;
-		flag=0;
+	
+		printf("temp=%d\n", temp);
+		temp++;
 	}
-	y=4;
 	
 	system ("PAUSE");
 	return 0;
